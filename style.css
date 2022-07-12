@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(21, 136, 6);
+    background-color:blanchedalmond;
 }
 
 .Tittle {
@@ -46,6 +46,6 @@ input{
 
 .Text{
     text-align: center;
-    color: white;
+    color:black;
     font-style: italic;
 }
