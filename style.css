@@ -1,35 +1,39 @@
 body{
-    background-color: brown;
+    background-color:rgb(149, 217, 226) 255);
 }
 .title{
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    color: blanchedalmond;
+    color:white;
 }
 form{
-    background-color: peru;
-    margin: 50px 350px;
-    padding: 5px;
+    background-color:bisque;
+    margin: 5px 260px;  
+    padding: 10px;
 }
-.form{
-    background-color: blanchedalmond;
-    text-align: center;
-    font-size: 15px;
-    margin: 10px 100px 10px 100px;
+input{
+    background-color:white;
+    padding:0%;
+    width: 310px;
+    margin: 2px;
 }
-.name{
-    background-color: antiquewhite;
-    text-align: center;
-    font-size: 20px;
-    margin: 10px 100px 10px 100px;
-}
-.button{
+button{
     text-align: center;
     font-size: 13px;
-    background-color: blanchedalmond;
+    background-color: rgb(28, 184, 132);
+    border:darkgray;
     text-transform: uppercase;
-    margin: 10px 100px 10px 100px;
+    margin: 10px 150px 0px 130px;
     padding: 5px;
     border-radius: 7px;
+}
+.text{
+    color:white;
+    text-align: center;
+}
+h2{
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
 }

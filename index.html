@@ -5,48 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTRATION FORM</title>
-    <link rel="style sheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+   <body>
+       <section>
+           <div>
+              <p class="title">SIMPLE CONTACT FORM</p>
+           </div>
+       </section>
+
     <section>
-        <div>
-        <h1><i>SIMPLE CONTACT FORM</i></h1>
-        </div>
-        </section>
+        <form class="contact form" type="submit" action="Registered.html" method="post">
+             <div class="form">
+                 <label for="name">NAME</label>
+                 <br>
+                 <input type="text" name="Name" placeholder="NAME" required></input>
+            </div>
+ 
+            <div class="form">
+                <label for="last name">LAST NAME</label>
+                <br>
+                <input type="text" name="Name" placeholder=" LAST NAME" required></input>
+           </div>
 
-        <section>
-            <div>
-            <form action="Submitted.html">
-         <p class="form">FIRST NAME</p>
-         <input class="name" type="text" placeholder="enter first name" required></input>
-        </div>
-        <div>
-          <p class="form">LAST NAME</p>
-          <input class="name" type="text" placeholder="enter last name" required></input>
-        </div>
-        <div>
-            <p class="form">EMAIL</p>
-            <input class="name" type="text" placeholder="enter your email" required></input>
-        </div>
-        <div>
-            <p class="form">PHONE NUMBER</p>
-            <input class="name" type="number" placeholder="enter your phone number" required></input>
-        </div>
-        <div>
-            <p class="form">CITY</p>
-            <input class="name" type="text" placeholder="enter your city name" required></input>
-        </div>
-        <div>
-            <p class="form">MESSAGE</p>
-            <input class="name" type="text" placeholder="message" optional></input>
-        </div>
-        <div>
-            <button class="button"><b>SUBMIT</b></button>
-        </div>
-        </form>
-        </section>
-        <section><p>&copy 2022 Simple Contact Form. All Rights Reserved | Designed by Hamza Shaikh
-        </p></section>
+           <div class="form">
+               <label for="email">EMAIL</label>
+               <br>
+               <input type="text" name="email" placeholder="EMAIL" required></input>
+          </div>
 
-</body>
+           <div class="form">
+               <label for="phone number">PHONE NUMBER</label>
+               <br>
+               <input type="text" name="phone number" placeholder="PHONE NUMBER" required></input>
+           </div>    
+
+           <div class="form">
+                <label for="city">CITY</label>
+                <br>
+                <input type="text" name="city" placeholder="CITY" required></input>
+           </div>
+
+           <div class="form">
+                <label for="name">MESSAGE</label>
+                <br>
+                 <input type="text" name="message" placeholder="MESSAGE" required></input>
+          </div> 
+        
+          <div>
+               <button>Submit</button>
+               <br>
+         </div>
+       </form>
+ </section>  
+       <div class="text">
+             <p>&copy 2022 Simple Contact Form. All Rights Resrved | DESIGN BY HAMZA SHAIKH</p>
+        </div>
+    </body>
 </html>
