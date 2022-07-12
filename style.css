@@ -1,39 +1,51 @@
-body{
-    background-color:rgb(149, 217, 226) 255);
+body {
+    background-color: rgb(21, 136, 6);
 }
-.title{
-    font-size: 30px;
+
+.Tittle {
     text-transform: uppercase;
     text-align: center;
-    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
-form{
-    background-color:bisque;
-    margin: 5px 260px;  
+
+.details_Form {
+    background-color: white;
     padding: 10px;
+    margin: 10px 270px;
+}
+
+label{
+    color: rgb(61, 3, 3);
 }
 input{
-    background-color:white;
-    padding:0%;
-    width: 310px;
-    margin: 2px;
+    width: 96%;
+    padding-right: 10px;
+    padding-top: 3px;
+    margin-top: 5px;
+    font-family: Cambria;
 }
-button{
+
+
+.input_data {
+    margin-bottom: 10px;
+}
+
+.button_input{
     text-align: center;
-    font-size: 13px;
-    background-color: rgb(28, 184, 132);
-    border:darkgray;
+}
+
+#Continue{
+    background-color: darkcyan;
+    text-align: center;
     text-transform: uppercase;
-    margin: 10px 150px 0px 130px;
-    padding: 5px;
-    border-radius: 7px;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
 }
-.text{
-    color:white;
+
+.Text{
     text-align: center;
-}
-h2{
-    background-color: white;
-    text-align: center;
-    font-size: 35px;
+    color: white;
+    font-style: italic;
 }
